@@ -14,12 +14,12 @@ h1 {
     font-family: "Silkscreen", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 7vh;
+    font-size: 5vh;
     color: rgb(194, 174, 0);
 }
 
 p {
-    font-size: 150%;
+    font-size: 130%;
     font-style: italic;
     color: #fffad1;
 
@@ -34,7 +34,7 @@ p {
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(26, 29, 32);
+    background-color: rgb(34, 36, 37);
 }
 
 header {
