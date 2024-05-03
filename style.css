@@ -54,9 +54,14 @@ h2 {
     border: 1px #fffbdc solid;
 }
 
-.juanes:hover + .cajaBio {
+.juanes:hover {
     transform: scale(1.1);
+}
+
+.juanes:hover + .cajaBio{
     opacity: 100%;
+    transition: 3s;
+
 }
 
 h1 {
@@ -97,7 +102,7 @@ li {
     height: 100%;
     align-items: center;
     text-align: center;
-    border: 1px #fffbdc solid;
+    border: 1px #505050 solid;
 }
 
 .project {
