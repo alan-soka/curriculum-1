@@ -14,15 +14,16 @@ header {
 }
 
 .cajaBio {
-    background-color: blue;
+    position: absolute;
+    margin: auto;
+    background-color: rgba(0, 238, 255, 0.274);
+    border-radius: 5%;
+    /* backdrop-filter: blur(10px); */
     height: 200px;
-    width: 400px;
-    position: relative;
+    width: 70%;
     opacity: 0%;
+    display: none;
 }
-
-
-d
 
 
 .contenedor {
@@ -58,9 +59,10 @@ h2 {
     transform: scale(1.1);
 }
 
-.juanes:hover + .cajaBio{
+.juanes:hover+.cajaBio {
+    display: block;
     opacity: 100%;
-    transition: 3s;
+    transition: 2s;
 
 }
 
