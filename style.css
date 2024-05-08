@@ -12,17 +12,19 @@ header {
     position: sticky;
     top: 1%;
 }
-
+ 
 .cajaBio {
-    position: absolute;
-    margin: auto;
-    background-color: rgba(0, 238, 255, 0.274);
+    border: 3px solid #574d00;
     border-radius: 5%;
-    /* backdrop-filter: blur(10px); */
-    height: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    backdrop-filter: blur(20px);
+    top: 13%;
+    height: 25%;
     width: 70%;
     opacity: 0%;
-    display: none;
+    transition: opacity 1s;
 }
 
 
@@ -60,10 +62,8 @@ h2 {
 }
 
 .juanes:hover+.cajaBio {
-    display: block;
-    opacity: 100%;
-    transition: 2s;
 
+    opacity: 100%;
 }
 
 h1 {
@@ -100,6 +100,7 @@ li {
 }
 
 .CajaCenter {
+    position: relative;
     width: 70%;
     height: 100%;
     align-items: center;
